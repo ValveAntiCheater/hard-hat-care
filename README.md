@@ -1,7 +1,7 @@
 # Hard Hat Care
 
 
-Hard Hat Care aims improve the mental health of construction workers by flagging employees that show signs of poor mental health. We feature a robust, interactive website that enables employers to organize and examine the mental well-being of their employees.
+Hard Hat Care aims to improve the mental health of construction workers by flagging employees who show signs of poor mental health. We feature a robust, interactive website that enables employers to organize and examine the mental well-being of their employees.
 
 **USE CASE:** Corporate officers and site managers can leverage this tool to periodically identify at risk employees, allowing them to proactively reach out and provide the necessary mental health support. 
 
@@ -34,7 +34,7 @@ This enables companies and managers to perform follow-up actions and provide the
 Hard Hat Care uses a model that computes a mental health score based on the following data:
 1. Date of Joining (YYYY-MM-DD)
 2. Gender (Male or Female)
-3. Designation ([0.0, 5.0] where higher means higher senority level)
+3. Designation ([0.0, 5.0] where higher means higher seniority level)
 4. Resource Allocation ([1.0, 10.0] where higher means higher workload)
 5. Performance ([0.0, 10.0] where higher means higher performance)
 
@@ -54,10 +54,10 @@ Clients must upload a CSV file containing this data. This mental health score is
 * Lack of datasets related to employee mental health *(especially in blue-collar jobs)*
 * Many existing datasets mostly contained textual data points rather than quantitative data points
 
-**Implementation of Concept:** As this was a majority of our team's first hackathon, we faced a steep learning curve in integrating smoothly across the stack. Some problems included:
+**Implementation of Concept:** As this was the majority of our team's first hackathon, we faced a steep learning curve in integrating smoothly across the stack. Some problems included:
 * Connecting the Next.js front end to the Flask back end
 * Parsing a CSV file in TypeScript
-* Perfoming relevant encodings on categorical data
+* Performing relevant encodings on categorical data
 * Deploying our application through a hosting service
 * Using the Flask API to run the exported machine learning model (.pkl)
 
@@ -65,7 +65,7 @@ Clients must upload a CSV file containing this data. This mental health score is
 
 The construction industry poses specific challenges regarding the mental health of its employees, including high stress, physical strain, job insecurity, and isolation. However, there is a growing recognition of these issues, and efforts are being made to improve mental health awareness, reduce stigma, and provide support and resources to workers in this field. 
 
-The ultimate goal is to create a more mentally healthy and supportive environment within the construction industry. We hope our tool can play a small part in acheiving this goal. :)
+The ultimate goal is to create a more mentally healthy and supportive environment within the construction industry. We hope our tool can play a small part in achieving this goal. :)
 
 
 ## Contribution :smile:
